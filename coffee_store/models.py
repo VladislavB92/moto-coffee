@@ -14,5 +14,10 @@ class Coffee(models.Model):
 
 class Biker(models.Model):
     model = models.CharField(max_length=50)
+
+
+class Snack(models.Model):
     name = models.CharField(max_length=50)
 
+    def __str__(self):
+        return self.name
