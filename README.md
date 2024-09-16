@@ -13,3 +13,8 @@ A store for the coffee loving motorcyclists.
 
     `pip freeze > requirements.txt`
 
+4. Setup database configuration in .env
+
+5. Apply migrations
+
+   `python manage.py migrate`
