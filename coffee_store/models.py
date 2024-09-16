@@ -11,3 +11,8 @@ class Coffee(models.Model):
         return self.name
 
 
+
+class Biker(models.Model):
+    model = models.CharField(max_length=50)
+    name = models.CharField(max_length=50)
+
